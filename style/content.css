@@ -1,0 +1,160 @@
+/**
+ * Intecmedia HTML Reset
+ *
+ * @author Dmitry Pyatkov(aka dkrnl) <dkrnl@yandex.ru>
+ * @copyright 2011 IntecMedia (http://www.intecmedia.ru)
+ * @license public domain
+ */
+
+.content {
+  font-family:arial;
+  font-size:1;
+  line-height:normal;
+}
+
+/*paragraph*/
+.content p {
+  margin:1em 0;
+}
+.content blockquote {
+  padding-left:1em;
+  border-left:5px solid gray;
+  margin:1em 0;
+}
+.content blockquote p {
+  margin:0;
+}
+
+/*headers*/
+.content h1 {
+  font-size:2em;
+  margin:0.67em 0;
+  font-weight:bold;
+}
+.content h2 {
+  font-size:1.5em;
+  margin:0.83em 0;
+  font-weight:bold;
+}
+.content h3 {
+  font-size:1.17em;
+  margin:1em 0;
+  font-weight:bold;
+}
+.content h4 {
+  font-size:1em;
+  margin:1.33em 0;
+  font-weight:bold;
+}
+.content h5 {
+  font-size:0.83em;
+  margin:1.67em 0;
+  font-weight:bold;
+}
+.content h6 {
+  font-size:0.67em;
+  margin:2.33em 0;
+  font-weight:bold;
+}
+
+/*lists*/
+.content ul,.content ol {
+  margin:0 0 1em 1.8em;
+}
+.content ul ul,.content ul ol,.content ol ol,.content ol ul {
+  margin-top:0.2em;
+  margin-bottom:0.2em;
+}
+.content ul {
+  list-style:disc;
+}
+.content ol {
+  list-style:decimal;
+}
+.content li {
+  margin:0 0 0.2em 0;
+}
+.content ul.unstyled {
+  list-style:none;
+  margin-left:0;
+}
+.content dl {
+  margin-bottom:1em;
+}
+.content dl dt,.content dl dd {
+  line-height:1em;
+}
+.content dl dt {
+  font-weight:bold;
+}
+.content dl dd {
+  margin:0 0 0.2em 0.5em;
+}
+
+/*table*/
+.content table {
+  margin:0.5em 0 0.5em 0;
+  border:1px solid gray;
+}
+.content table td,.content table th {
+  padding:0.5em;
+  border:1px solid gray;
+  text-align:left;
+}
+.content table th {
+  background:silver;
+  font-weight:bold;
+}
+.content table td[align=left],.content table th[align=left] {
+  text-align:left;
+}
+.content table td[align=center],.content table th[align=center] {
+  text-align:center;
+}
+.content table td[align=right],.content table th[align=right] {
+  text-align:right;
+}
+.content table td[align=justify],.content table th[align=justify] {
+  text-align:justify;
+}
+.content table td[valign=top],.content table th[valign=top] {
+  text-align:top;
+}
+.content table td[valign=middle],.content table th[valign=middle] {
+  text-align:middle;
+}
+.content table td[valign=bottom],.content table th[valign=bottom] {
+  text-align:bottom;
+}
+.content table td[valign=baseline],.content table th[valign=baseline] {
+  text-align:baseline;
+}
+
+/*pager*/
+.pager {
+  height:36px;
+  margin:18px auto;
+}
+.pager ul {
+  height:34px;
+  margin:0 auto;
+  border:1px solid gray;
+  display:inline-block;
+}
+.pager li {
+  margin:0;
+  display:inline;
+}
+.pager a {
+  float:left;
+  padding:0 14px;
+  line-height:34px;
+  border-right:1px solid gray;
+  text-decoration:none;
+}
+.pager a:hover, .pager .active a {
+  background:silver;
+}
+.pager .next a {
+  border:0;
+}

@@ -1,0 +1,183 @@
+/**
+ * Intecmedia HTML Reset
+ *
+ * @author Dmitry Pyatkov(aka dkrnl) <dkrnl@yandex.ru>
+ * @copyright 2011 IntecMedia (http://www.intecmedia.ru)
+ * @license public domain
+ */
+/*reset*/    
+html, body {
+  margin:0;
+  padding:0;
+}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,
+s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,
+table,caption,tbody,tfoot,thead,tr,th,td {
+  margin:0;
+  padding:0;
+  border:0;
+  font-weight:normal;
+  font-style:normal;
+  font-size:100%;
+  line-height:1;
+  font-family:inherit;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+ol, ul {
+  list-style:none;
+}
+q:before,q:after,blockquote:before,blockquote:after {
+  content:"";
+}
+html {
+  overflow-y:scroll;
+  font-size:100%;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+}
+a:focus {
+  outline:thin dotted;
+}
+a:hover, a:active {
+  outline:0;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
+  display:block;
+}
+audio, canvas, video {
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+}
+audio:not([controls]) {
+  display:none;
+}
+sub, sup {
+  font-size:75%;
+  line-height:0;
+  position:relative;
+  vertical-align:baseline;
+}
+sup {
+  top:-0.5em;
+}
+sub {
+  bottom:-0.25em;
+}
+img {
+  border:0;
+  -ms-interpolation-mode:bicubic;
+}
+button,input,select,textarea {
+  font-size:100%;
+  margin:0;
+  vertical-align:baseline;
+  *vertical-align:middle;
+}
+button, input {
+  line-height:normal;
+  *overflow:visible;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border:0;
+  padding:0;
+}
+button,input[type="button"],input[type="reset"],input[type="submit"] {
+  cursor:pointer;
+  -webkit-appearance:button;
+}
+input[type="search"] {
+  -webkit-appearance:textfield;
+  -webkit-box-sizing:content-box;
+  -moz-box-sizing:content-box;
+  box-sizing:content-box;
+}
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance:none;
+}
+textarea {
+  overflow:auto;
+  vertical-align:top;
+}
+/*/reset*/
+
+/*utils*/
+.hidden {
+  display:none;
+}
+.show {
+  display:block !important;
+}
+.visible {
+  visibility:visible !important;
+}
+.invisible {
+  visibility:hidden !important;
+}
+.cleaner {
+  clear:both;
+  width:auto;
+  height:0;
+  display:block;
+  overflow:hidden;
+  font-size:0;
+  line-height:0;
+  text-indent:-10000em;
+}
+.clearfix {
+  *zoom:1;
+}
+.clearfix:after {
+  visibility:hidden;
+  display:block;
+  font-size:0;
+  content:" ";
+  clear:both;
+  height:0;
+}
+.no-margin {
+  margin:0 !important;
+}
+.no-padding {
+  padding:0 !important;
+}
+.no-background {
+  background:transparent !important;
+}
+.no-border {
+  border:0 !important;
+}
+.no-wrap {
+  white-space:nowrap !important;
+}
+.a-left {
+  text-align:left;
+}
+.a-center {
+  text-align:center;
+}
+.a-right {
+  text-align:right;
+}
+.a-justify {
+  text-align:justify;
+}
+.va-top {
+  vertical-align:top;
+}
+.va-middle {
+  vertical-align:middle;
+}
+.va-bottom {
+  vertical-align:bottom;
+}
+.f-left {
+  float:left;
+}
+.f-right {
+  float:right;
+}
+/*/utils*/

@@ -1,0 +1,41 @@
+@import "reset.css";
+
+@import "content.css";
+
+@import "form.css";
+
+/**
+ * Intecmedia HTML Reset
+ *
+ * @author Dmitry Pyatkov(aka dkrnl) <dkrnl@yandex.ru>
+ * @copyright 2011 IntecMedia (http://www.intecmedia.ru)
+ * @license public domain
+ */
+
+body {
+  font-size:14px;
+}
+
+#wrapper {
+  margin:20px;
+}
+
+a {
+  color:#0000FF;
+}
+
+a:link {
+  color:#000000;
+}
+
+a:active {
+  color:#AA0000;
+}
+
+a:visited {
+  color:#0000AA;
+}
+
+a:hover {
+  color:#000000;
+}
