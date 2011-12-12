@@ -27,23 +27,6 @@
 }
 .form-widget {
 }
-.input {
-}
-.select {
-}
-.textarea {
-}
-input[disabled],select[disabled],textarea[disabled],
-input[readonly],select[readonly],textarea[readonly]  {
-  color:#AAAAAA;
-  background-color:#EEEEEE;
-}
-
-.button {
-  font-weight:bold;
-  font-size:1.2em;
-  display:block;
-}
 .form .required {
 }
 .form .error {
@@ -59,10 +42,51 @@ input[readonly],select[readonly],textarea[readonly]  {
 .form .notice {
   font-size:0.85em;
 }
+
+.form-table {
+
+}
+.form-table .form-row:after {
+  visibility:hidden;
+  display:block;
+  font-size:0;
+  content:" ";
+  clear:both;
+  height:0; 
+}
+.form-table .form-row {
+  *zoom:1;
+}
+.form-table .form-label {
+  float: left;
+  width: 130px;
+  text-align: right;
+  padding-top:0.25em;
+}
+.form-table .form-widget {
+  margin-left: 150px;
+}
+
+
+.input {
+}
+.select {
+}
+.textarea {
+}
+input[disabled],select[disabled],textarea[disabled],
+input[readonly],select[readonly],textarea[readonly]  {
+  color:#AAAAAA;
+  background-color:#EEEEEE;
+}
+.button {
+  font-weight:bold;
+  font-size:1.2em;
+  display:block;
+}
 ul.checkbox,ul.radio {
   margin:2px 0;
   display:inline-block;
-  vertical-align:middle;
   list-style:none;
 }
 ul.checkbox li,ul.radio li {
