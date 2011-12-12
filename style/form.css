@@ -32,15 +32,17 @@
 .form .error {
   color: red;
   font-size:0.85em;
-  padding:5px 0;
+  line-height:1.4em;
 }
 .form .description {
   font-size:0.85em;
+  line-height:1.4em;
   display:block;
   clear:both;
 }
 .form .notice {
   font-size:0.85em;
+  line-height:1.4em;
 }
 
 .form-table {
@@ -61,13 +63,13 @@
   float: left;
   width: 130px;
   text-align: right;
-  padding-top:0.25em;
 }
 .form-table .form-widget {
   margin-left: 150px;
 }
-
-
+.form-table .form-legend {
+  margin-left: 150px;
+}
 .input {
 }
 .select {
@@ -85,19 +87,19 @@ input[readonly],select[readonly],textarea[readonly]  {
   display:block;
 }
 ul.checkbox,ul.radio {
-  margin:2px 0;
+  margin:0;
   display:inline-block;
   list-style:none;
 }
 ul.checkbox li,ul.radio li {
-  margin:2px 8px 2px 0;
+  margin:0 0.5em 0 0;
   float:left;
 }
 ul.checkbox input,ul.radio input,input.checkbox,input.radio {
-  margin:0 2px;
+  margin:0;
 }
 input.button {
-  padding:3px 15px;
+  padding:0.25em 1em;
   font-weight:bold;
   font-size:1.2em;
   display:block;
