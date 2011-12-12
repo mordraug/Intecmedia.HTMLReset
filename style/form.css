@@ -6,3 +6,75 @@
  * @license public domain
  */
 
+.form {
+}
+.form-group {
+}
+.form-legend {
+  font-size:1.2em;
+  font-weight:bold;
+}
+.form-set {
+}
+.form-row {
+  padding:1em 0;
+}
+.form-label {
+  font-size:1em;
+}
+.form-label label {
+  font-weight:bold;
+}
+.form-widget {
+}
+.input {
+}
+.select {
+}
+.textarea {
+}
+input[disabled],select[disabled],textarea[disabled],
+input[readonly],select[readonly],textarea[readonly]  {
+  color:#AAAAAA;
+  background-color:#EEEEEE;
+}
+
+.button {
+  font-weight:bold;
+  font-size:1.2em;
+  display:block;
+}
+.form .required {
+}
+.form .error {
+  color: red;
+  font-size:0.85em;
+  padding:5px 0;
+}
+.form .description {
+  font-size:0.85em;
+  display:block;
+  clear:both;
+}
+.form .notice {
+  font-size:0.85em;
+}
+ul.checkbox,ul.radio {
+  margin:2px 0;
+  display:inline-block;
+  vertical-align:middle;
+  list-style:none;
+}
+ul.checkbox li,ul.radio li {
+  margin:2px 8px 2px 0;
+  float:left;
+}
+ul.checkbox input,ul.radio input,input.checkbox,input.radio {
+  margin:0 2px;
+}
+input.button {
+  padding:3px 15px;
+  font-weight:bold;
+  font-size:1.2em;
+  display:block;
+}
