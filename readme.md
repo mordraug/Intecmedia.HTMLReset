@@ -21,3 +21,4 @@ License: Public Domain
 ### Major components:
 * jQuery: MIT/GPL license
 * Normalize.css: Public Domain
+* HTML5 Shiv: MIT/GPL2 Licensed

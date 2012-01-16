@@ -88,6 +88,7 @@ input[readonly],select[readonly],textarea[readonly]  {
 }
 ul.checkbox,ul.radio {
   margin:0;
+  padding:0;
   display:inline-block;
   list-style:none;
 }
@@ -97,6 +98,7 @@ ul.checkbox li,ul.radio li {
 }
 ul.checkbox input,ul.radio input,input.checkbox,input.radio {
   margin:0;
+  padding:0;
 }
 input.button {
   padding:0.25em 1em;
