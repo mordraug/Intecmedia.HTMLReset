@@ -22,6 +22,7 @@ License: Public Domain
 * крупные блоки заключаются в открывающий и закрывающий комментарий
 
 пример:
+```css
 /* block */
 .block {
   font-size:14px;
@@ -32,6 +33,7 @@ License: Public Domain
   border:1px solid #FF0000;
 }
 /* /block */
+```
 
 ### HTML
 
@@ -41,6 +43,7 @@ License: Public Domain
 * крупные блоки заключаются в открывающий и закрывающий комментарий
 
 пример:
+```html
 <!-- block -->
 <div class="block">
   Inline <a href="#">text</> on one line.
@@ -49,6 +52,7 @@ License: Public Domain
   </div>
 </div>
 <!-- /block -->
+```
 
 ## Именования классов и переменных
 *
