@@ -22,17 +22,16 @@ License: Public Domain
 * крупные блоки заключаются в открывающий и закрывающий комментарий
 
 пример:
+
 ```css
-/* block */
 .block {
-  font-size:14px;
-  width:100px;
+  font-size:14px;  
+  width:100px;  
 }
 .block .block-inner {
   color:#0000FF;
   border:1px solid #FF0000;
 }
-/* /block */
 ```
 
 ### HTML
@@ -43,22 +42,21 @@ License: Public Domain
 * крупные блоки заключаются в открывающий и закрывающий комментарий
 
 пример:
+
 ```html
-<!-- block -->
 <div class="block">
   Inline <a href="#">text</> on one line.
   <div class="block-inner">
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
   </div>
 </div>
-<!-- /block -->
 ```
 
 ## Именования классов и переменных
-*
+* ...
 
 ## Стандарты размещения файлов
-*
+* ...
 
 ## Лицензиции
 
