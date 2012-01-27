@@ -48,7 +48,7 @@ License: Public Domain
 ```html
 <!-- block -->
 <div class="block">
-  Inline <a href="#">text</> on one line.
+  Inline <a href="#">text</a> on one line.
   <div class="block-inner">
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
   </div>
