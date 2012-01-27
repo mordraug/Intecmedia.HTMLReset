@@ -1,8 +1,7 @@
 /**
  * Intecmedia HTML Reset
  *
- * @author Dmitry Pyatkov(aka dkrnl) <dkrnl@yandex.ru>
- * @copyright 2011 IntecMedia (http://www.intecmedia.ru)
+ * @copyright 2012 IntecMedia (http://www.intecmedia.ru)
  * @license public domain
  */
 
@@ -12,7 +11,7 @@
   line-height:normal;
 }
 
-/*paragraph*/
+/* paragraph */
 .content p {
   margin:1em 0;
 }
@@ -24,8 +23,9 @@
 .content blockquote p {
   margin:0;
 }
+/* /paragraph */
 
-/*headers*/
+/* headers */
 .content h1 {
   font-size:2em;
   margin:0.67em 0;
@@ -56,8 +56,9 @@
   margin:2.33em 0;
   font-weight:bold;
 }
+/* /headers */
 
-/*lists*/
+/* lists */
 .content ul,.content ol {
   margin:0 0 1em 1.8em;
 }
@@ -90,8 +91,9 @@
 .content dl dd {
   margin:0 0 0.2em 0.5em;
 }
+/* /lists */
 
-/*table*/
+/* table */
 .content table {
   margin:0.5em 0 0.5em 0;
   border:1px solid gray;
@@ -129,8 +131,10 @@
 .content table td[valign=baseline],.content table th[valign=baseline] {
   text-align:baseline;
 }
+/* /table */
 
-/*pager*/
+
+/* pager */
 .pager {
   height:36px;
   margin:18px auto;
@@ -158,3 +162,4 @@
 .pager .next a {
   border:0;
 }
+/* /pager */
