@@ -11,6 +11,13 @@
   line-height:normal;
 }
 
+.content img {
+  padding:5px; 
+  border:1px #bfbfbf;
+  border-radius:2px;
+  margin:5px;
+}
+
 /* paragraph */
 .content p {
   margin:1em 0;
