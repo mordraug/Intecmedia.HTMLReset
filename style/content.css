@@ -120,16 +120,16 @@
   text-align:justify;
 }
 .content table td[valign=top],.content table th[valign=top] {
-  text-align:top;
+  vertical-align:top;
 }
 .content table td[valign=middle],.content table th[valign=middle] {
-  text-align:middle;
+  vertical-align:middle;
 }
 .content table td[valign=bottom],.content table th[valign=bottom] {
-  text-align:bottom;
+  vertical-align:bottom;
 }
 .content table td[valign=baseline],.content table th[valign=baseline] {
-  text-align:baseline;
+  vertical-align:baseline;
 }
 /* /table */
 
