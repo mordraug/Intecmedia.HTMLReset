@@ -10,7 +10,12 @@
   font-size:1;
   line-height:normal;
 }
-
+.content strong,.content b {
+  font-weight:bold;
+}
+.content em, .content i {
+  font-style:italic;
+}
 .content img {
   padding:5px; 
   border:1px #bfbfbf;
